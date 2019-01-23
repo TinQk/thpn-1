@@ -11,12 +11,12 @@ gem 'factory_bot_rails', '~> 4.0' # Testing helpers for models
 gem 'faker', '~> 1.8', '>= 1.8.7'
 gem 'figaro', '~> 1.1', '>= 1.1.1' # Environment variables management
 gem 'husky', '~> 0.5.15' # Git hooks
+gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
 gem 'rubocop', '~> 0.60.0', require: false
 gem 'rubocop-rspec', '~> 1.30', '>= 1.30.1', require: false
-gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
 gem 'sandi_meter', '~> 1.2' # Clean code
-gem 'simplecov', '~> 0.16.1', require: false # Test coverage data
 gem 'shoulda-matchers', '~> 3.1' # Testing helpers for models
+gem 'simplecov', '~> 0.16.1', require: false # Test coverage data
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
